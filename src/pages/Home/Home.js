@@ -33,6 +33,10 @@ function Home({ onProductSelect }) {
     return (
         <div>
             <h1>Server Products</h1>
+            <h1>Server Products2</h1>
+            <h1>Server Products34</h1>
+            <h1>Server Products</h1>
+
             <div>
                 {products.length > 0 ? (
                     products.map((product) => (
