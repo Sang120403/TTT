@@ -1,0 +1,103 @@
+/* Header CSS */
+.app-header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header {
+    max-height: 40px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+.nav-lang {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-lang .dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-lang img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.lang-title-current {
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    display: none;
+}
+
+.dropdown-menu a {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right .nav-item {
+    margin-left: 20px;
+}
+
+.head-create {
+    cursor: pointer;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.head-create .fa {
+    margin-right: 5px;
+}
+
+.text-create {
+    color: #007bff;
+}
+
+.text-create:hover {
+    text-decoration: underline;
+}
